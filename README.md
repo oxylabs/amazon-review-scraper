@@ -2,6 +2,8 @@
 
 [![Amazon_scraper (1)](https://user-images.githubusercontent.com/129506779/249700804-abb11a97-9e0d-4f3c-bf2c-72991e8acd74.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=86) 
 
+[![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
+
 Amazon Review Scraper is designed to extract localized Amazon ratings
 and reviews in real-time without a hitch. This quick guide will walk you
 through the process of scraping Amazon reviews using Oxylabs' Scraper
