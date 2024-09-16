@@ -109,3 +109,5 @@ You’ll also get access to a complete Amazon Scraper, so feel free to
 check out [<u>this in-depth guide</u>](https://github.com/oxylabs/amazon-scraper) for more
 information. In case you have any questions or need assistance, contact
 our 24/7 support team via live chat or [<u>email</u>](mailto:support@oxylabs.io).
+
+Looking to scrape more other Amazon data? [Amazon ASIN Scraper](https://github.com/oxylabs/amazon-asin-scraper), [Bypass Amazon CAPTCHA](https://github.com/oxylabs/how-to-bypass-amazon-captcha), [How to Scrape Amazon Prices](https://github.com/oxylabs/how-to-scrape-amazon-prices), [Scraping Amazon Product Data](https://github.com/oxylabs/how-to-scrape-amazon-product-data)
