@@ -4,10 +4,19 @@
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
-Amazon Review Scraper is designed to extract localized Amazon ratings
-and reviews in real-time without a hitch. This quick guide will walk you
-through the process of scraping Amazon reviews using Oxylabs' Scraper
-API.
+- [Amazon Review Scraper](#amazon-review-scraper)
+    + [Free Amazon Scraper](#free-amazon-scraper)
+    + [Prerequisites](#prerequisites)
+    + [Installation](#installation)
+    + [Retrieving the ASIN code of an Amazon product to scrape reviews from](#retrieving-the-asin-code-of-an-amazon-product-to-scrape-reviews-from)
+    + [Scraping Amazon Review data](#scraping-amazon-review-data)
+    + [Retrieved data](#retrieved-data)
+    + [Notes](#notes)
+- [Scraping Amazon with Oxylabs API](#scraping-amazon-with-oxylabs-api)
+    + [Python code example](#python-code-example)
+    + [Output Example](#output-example)
+
+Amazon Review Scraper is designed to extract localized Amazon ratings and reviews in real-time without a hitch. In this guide, we'll demonstrate how to get this data for **free** on a small scale. If you need a bigger scale scraper, please refer to the 2nd part of the tutorial, where we'll scrape public Amazon data with Oxylabs API.
 
 ### Free Amazon Scraper
 
@@ -76,10 +85,11 @@ The data should look something like this:
 
 In case the code doesn't work or your project is of bigger scale, please refer to the second part of the tutorial. There, we showcase how to scrape public data with Oxylabs Scraper API.
 
-## How it works
+## Scraping Amazon with Oxylabs API
 
-You can retrieve Amazon reviews by providing the **ASIN** number to our
-service. Our API will return the results in **JSON** or **HTML** format.
+Now, we'll demonstrate how to scrape public Amazon review data with Oxylabs API. Bear in mind that you'll need an active subsciption to use this tool–you may get a free trial [here](https://dashboard.oxylabs.io/). 
+
+You can retrieve Amazon reviews by providing the **ASIN** number to our service. Our API will return the results in **JSON** or **HTML** format.
 
 ### Python code example
 
@@ -166,15 +176,4 @@ See code examples for other programming languages
   ]
 }
 ```
-
-Oxylabs’ Amazon Review Scraper will easily streamline your public data
-extraction efforts. Get hassle-free access to Amazon review data, such
-as rating scores, review titles and descriptions, author names, review
-dates, and more.
-
-You’ll also get access to a complete Amazon Scraper, so feel free to
-check out [<u>this in-depth guide</u>](https://github.com/oxylabs/amazon-scraper) for more
-information. In case you have any questions or need assistance, contact
-our 24/7 support team via live chat or [<u>email</u>](mailto:support@oxylabs.io).
-
-Looking to scrape more other Amazon data? [Amazon ASIN Scraper](https://github.com/oxylabs/amazon-asin-scraper), [Bypass Amazon CAPTCHA](https://github.com/oxylabs/how-to-bypass-amazon-captcha), [How to Scrape Amazon Prices](https://github.com/oxylabs/how-to-scrape-amazon-prices), [Scraping Amazon Product Data](https://github.com/oxylabs/how-to-scrape-amazon-product-data)
+Check out other tutorials on scraping Amazon data: [Amazon ASIN Scraper](https://github.com/oxylabs/amazon-asin-scraper), [Bypass Amazon CAPTCHA](https://github.com/oxylabs/how-to-bypass-amazon-captcha), [How to Scrape Amazon Prices](https://github.com/oxylabs/how-to-scrape-amazon-prices), [Scraping Amazon Product Data](https://github.com/oxylabs/how-to-scrape-amazon-product-data)
