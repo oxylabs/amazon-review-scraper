@@ -1,6 +1,6 @@
 # Amazon Review Scraper
 
-[![Amazon_scraper (1)](https://user-images.githubusercontent.com/129506779/249700804-abb11a97-9e0d-4f3c-bf2c-72991e8acd74.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=86) 
+[![Amazon_scraper (1)](https://user-images.githubusercontent.com/129506779/249700804-abb11a97-9e0d-4f3c-bf2c-72991e8acd74.png)](https://oxylabs.go2cloud.org/aff_c?offer_id=7&aff_id=877&url_id=86)
 
 [![](https://dcbadge.vercel.app/api/server/eWsVUJrnG5)](https://discord.gg/GbxmdGhZjq)
 
@@ -8,6 +8,73 @@ Amazon Review Scraper is designed to extract localized Amazon ratings
 and reviews in real-time without a hitch. This quick guide will walk you
 through the process of scraping Amazon reviews using Oxylabs' Scraper
 API.
+
+### Free Amazon Scraper
+
+A free tool used to get Amazon review data for a provided Amazon product.
+
+### Prerequisites
+
+To run this tool, you need to have Python 3.11 installed in your system.
+
+### Installation
+
+Open up a terminal window, navigate to this repository and run this command:
+
+```make install```
+
+### Retrieving the ASIN code of an Amazon product to scrape reviews from
+
+First off, open up a product you want to scrape reviews from in Amazon.
+
+After the page has loaded, click on the URL of the page in your browser.
+
+You should see something like this: `https://amazon.com/<product_info>/dp/<asin_code>`
+
+For this example, let's take a cat bed from Amazon as a product.
+
+The URL for this product looks like this: `https://www.amazon.com/Warming-Pets-Removable-Non-Slip-Washable/dp/B096S3QHWL`
+
+<img width="1203" alt="image" src="https://github.com/user-attachments/assets/bf05be64-2ea4-464f-81a8-e62cc6262682">
+
+Copy and save the ASIN code. We'll use it for scraping reviews for this product.
+
+The ASIN code for this product is: `B096S3QHWL`. 
+
+### Scraping Amazon Review data
+
+To get reviews for a selected product, simply run this command in your terminal:
+
+```make scrape ASIN_CODE="<your_selected_asin_code>"```
+
+With the ASIN code we retrieved earlier, the command would look like this:
+
+```make scrape ASIN_CODE="B096S3QHWL"```
+
+Make sure to surround the code with quotation marks, otherwise the tool might have trouble parsing it.
+
+After running the command, your terminal should look something like this:
+
+<img width="741" alt="image" src="https://github.com/user-attachments/assets/ad46303b-c537-4b72-849a-c3770f94966a">
+
+### Retrieved data
+
+After the tool has finished running, you should see a file named `amazon_reviews.csv` in your directory.
+
+The generated CSV file contains data with these columns inside it:
+
+- `author` - The author of the review.
+- `content` - The content of the review.
+- `rating` - The rating for the product.
+- `title` - The title of the review.
+
+The data should look something like this:
+
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/a0bd8d85-c6be-4506-8ace-8a755e8c3702">
+
+### Notes
+
+In case the code doesn't work or your project is of bigger scale, please refer to the second part of the tutorial. There, we showcase how to scrape public data with Oxylabs Scraper API.
 
 ## How it works
 
