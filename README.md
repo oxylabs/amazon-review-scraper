@@ -89,7 +89,7 @@ In case the code doesn't work or your project is of bigger scale, please refer t
 
 Now, we'll demonstrate how to scrape public Amazon review data with Oxylabs API. Bear in mind that you'll need an active subsciption to use this tool–you may get a free trial [here](https://dashboard.oxylabs.io/). 
 
-You can retrieve Amazon reviews by providing the **ASIN** number to our service. Our API will return the results in **JSON** or **HTML** format.
+You can retrieve Amazon reviews by providing the **ASIN** number to our service. Our API will return the results in **JSON**, **HTML**, or **Markdown** format.
 
 ### Python code example
 
